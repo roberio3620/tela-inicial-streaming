@@ -3,6 +3,7 @@
     --cinza-sec: #c0c0c0;
     --bot-azul: #167bf7;
     --cor-fundo: #00030c; 
+    --fonte-princ:'Inter' ;
 }
 
 *{
@@ -13,12 +14,46 @@
 body{
     background-color: var(--cor-fundo);
     color: var(--branco-pri);
+    font-family: var(--fonte-princ);
+    font-size: 16px;
+    font-weight: 400;
 }
 .prin{
     background-image: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__caixa{
+    margin: 0 6em;
+}
+.container__tit{
+    font-size: 28px;
+    font-weight: 700;
+}
+.container__but{
+    background-color: var(--bot-azul);
+    border-radius: 5px;
+    padding: 1em;
+     color: var(--branco-pri);
+     display: block;
+     text-decoration: none;
+     margin-bottom: 1em;
+}
+.but_sec{
+    background-color: transparent;
+    border: 2px solid var(--branco-pri);
+}
+.container__avis{
+    font-size: 12px;
+    color: var(--cinza-sec);
+}
+.container__img{
+    margin: 1em 0 2em 0;
 }
