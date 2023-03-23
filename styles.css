@@ -4,6 +4,7 @@
     --bot-azul: #167bf7;
     --cor-fundo: #00030c; 
     --fonte-princ:'Inter' ;
+    --but-azul-efeito: #4e98ec;
 }
 
 *{
@@ -99,4 +100,35 @@ body{
 .lista__item{
     font-size: 32px;
     color: var(--branco-pri);
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    list-style-type: none;
+}
+.lista__link a{
+    color: var(--branco-principal);
+    margin-left: 1em;
+    text-decoration: none;
+}
+.rodape__text {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+.lista__link a:hover{
+    color: var(--bot-azul);
+}
+.lista__link a:active{
+    color: purple;
+}
+.container__but:hover{
+    background-color: var(--but-azul-efeito);
+    color: var(--cor-fundo);
 }
