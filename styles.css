@@ -57,3 +57,46 @@ body{
 .container__img{
     margin: 1em 0 2em 0;
 }
+.sec{
+    align-items: center;
+    margin: 0 10em;
+}
+.sec__img{
+    width: 80%;
+}
+.descri__tit{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-pri);
+    margin-bottom: 0.1em;
+}
+.descri__text{
+   color: var(--cinza-sec); 
+}
+.ter{
+    align-items: center;
+    margin: 0em 10em;
+}
+.sec__but{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descri{
+    padding: 2em;
+}
+.disposit{
+    text-align: center;
+}
+.disposit__tit{
+    font-size: 48px;
+}
+.disposit__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-pri);
+}
